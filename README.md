@@ -38,6 +38,49 @@ This project provides a detailed view of sales performance with actionable insig
 
 ![image](https://github.com/user-attachments/assets/6dd9b80e-3e7c-46a4-b969-a638053c2458)
 
+# Customer Analysis Using RFM
+
+The RFM (Recency, Frequency, Monetary) analysis is employed to segment customers based on their buying behavior, providing valuable insights into their contribution to overall sales. This project showcases how Power BI can be leveraged to deliver actionable insights into both sales performance and customer behavior.
+
+## RFM Segmentation
+
+- **Recency**: Measures the total sales amount in the last 180 days.
+- **Frequency**: Tracks the number of purchases made by a customer.
+- **Monetary Value**: Represents the total sales value contributed by each customer.
+
+Customers are classified into **low**, **medium**, and **high-value** categories, and dashboard visuals highlight each segment’s contribution to total sales.
+
+### Bonus: Scoring Metric System
+A scoring metric system has been developed to identify potential customers for targeted marketing and customer retention efforts.
+
+## Additional Insights
+
+### New Customers in 2021
+This analysis reveals:
+- The number of new customers acquired in 2021
+- Their total sales amount
+- Quantity purchased
+- Discounts offered to them
+
+### Top Performing Salespersons
+This section lists the top 5 performing salespersons for each segment at both state and city levels. Visuals include:
+- Total sales
+- Average discount percentage provided by each salesperson
+
+## Project Highlights
+This project utilizes advanced techniques like:
+- RFM analysis
+- Pareto analysis
+- What-If analysis
+
+These methods are used in conjunction with data modeling and Power Query to deliver a comprehensive and interactive reporting experience.
+
+## Technologies Used
+- Power BI
+- DAX
+- Power Query
+- Data Modeling
+
 ![image](https://github.com/user-attachments/assets/e9fc1aa0-a620-421a-8775-c5fe8088ef74)
 
 ![image](https://github.com/user-attachments/assets/1a3b7a1a-eb8c-49f5-b87d-5a108ee967e0)
