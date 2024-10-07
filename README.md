@@ -1,41 +1,37 @@
 # Sales-Performace-Analysis & Customer Analysis
 
-Power BI Sales Performance Analysis - Data Transformation & Views
-This project involves utilizing Power Query to transform, clean, and join multiple datasets, followed by creating key KPIs and views in Power BI for analyzing sales performance across regions, categories, and segments.
+Here’s a concise version of your approach for a GitHub README file:
 
-1. Data Transformation (Power Query)
-Data Cleaning:
-Handled missing/inconsistent data.
-Removed duplicates and standardized formats.
-Data Joining:
-Joined datasets (Sales, Returns, Targets, Products, Customers, Regions, Salespersons) using key columns.
-Calculated Columns:
-Net Sales = Sales – Returns
-% Target Achieved = (Net Sales / Target Sales) * 100
-Profit Margin = (Profit / Net Sales) * 100
-What-If Discount: User input to calculate predicted profit % based on discount percentage per segment.
-2. Key KPIs
-Total Sales: Sum of Net Sales
-% Target Achieved: Percentage of targets achieved for sales
-Profit Margin: Profitability percentage calculated as (Profit / Sales Amount)
-3. Views & Analysis
-1. Sales Performance
-Sub-Views:
-Overall Sales Trends: Last 4 years' sales, with current year vs. last year comparison.
-Segmented by: Sales split by segments, categories, regions.
-2. Target/Benchmark Analysis
-Highlight regions/states that achieved or missed their current year sales targets.
-3. What-If Analysis
-User inputs discount percentages for each segment to calculate predicted profit margin.
-4. Pareto Analysis
-Allows users to check what percentage of total sales is contributed by a chosen percentage of top customers.
-Note: All data transformations and calculated columns were performed exclusively in Power Query.
+# **Sales Performance Analysis with Power BI**
 
-Visualizations
-KPI Cards: Displaying Total Sales, % Target Achieved, and Profit Margin.
-Line Chart: 4-year trend comparison for overall sales.
-Bar/Column Charts: Sales breakdown by segment, region, and category.
-What-If Parameter: Interactive input for discount percentage with a resulting predicted profit chart.
+This project analyzes sales data using Power BI, focusing on sales trends, target achievement, what-if discount scenarios, and Pareto analysis. Data transformation and cleaning were performed in Power Query to ensure accurate reporting.
+
+## **Data Transformation & Cleaning:**
+- Imported datasets: Sales, Returns, Targets, Products, Customers, Regions, Salespersons.
+- Addressed missing/inconsistent data and standardized formats.
+- Joined datasets using key columns.
+- Created new columns using Power Query:
+  - **Net Sales** = Sales – Returns
+  - **% Target Achieved** = (Net Sales / Target Sales) * 100
+  - **Profit Margin** = (Profit / Net Sales) * 100
+  - **What-If Discount** = Allows user input for discount % to predict profit.
+    
+## **Key KPIs:**
+- **Total Sales**: Net Sales
+- **% Target Achieved**
+- **Profit Margin**
+
+## **Power BI Dashboard Views:**
+1. **Sales Performance:**
+   - Displays 4-year sales trends with year-over-year comparisons by segments, categories, and regions.
+2. **Target/Benchmark Analysis:**
+   - Highlights regions/states that have achieved or missed current year sales targets.
+3. **What-If Analysis:**
+   - Allows users to input discount percentages for segments and predict profits.
+4. **Pareto Analysis:**
+   - Helps users check the contribution of top customers to total sales.
+
+This project provides a detailed view of sales performance with actionable insights on targets, trends, and customer contributions.
 
 
 ![image](https://github.com/user-attachments/assets/1f9a549b-612a-4e76-9661-8cd54cf4b34c)
